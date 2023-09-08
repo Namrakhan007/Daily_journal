@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+
+<form action="/compose" class="item" method="POST">
+    <h1>Compose</h1>
+    <!-- <h4>Title</h4>
+    <input type="text" class="form-control top" name="composeText"  placeholder="compose text" autocomplete="off" required>
+    <h4>Post</h4>
+    <input type="text" class="form-control top" name="list" cols = "40" rows ="5"style="width:100%;height:100px" name="postText" placeholder="Post text"> -->
+    <div class="form-group">
+        <label >Title</label>
+        <input type="text" class="form-control" name="composeText"  placeholder="compose text" autocomplete="off" required>
+      </div>
+      <div class="form-group">
+        <label >Post</label>
+        <input type="postText" name="composePost" class="form-control" style="height:100px" placeholder="Post">
+      </div>
+      
+    
+    <button type="submit" class="btn btn-primary">publish</button>
+
+    
+    
+
+</form>
+<%- include("partials/footer"); -%>
